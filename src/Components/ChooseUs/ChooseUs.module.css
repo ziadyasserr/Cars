@@ -1,0 +1,25 @@
+.textCars span {
+    display: inline-block;
+    color: #0b5ed7;
+    background-color: #1572d31a;
+    padding: 5px 20px;
+    border: 1px solid #1572d31a;
+  }
+.posimg{
+    position: absolute;
+    top: -12%;
+    left: 0%;
+    z-index: -1;
+    overflow: hidden !important;
+}
+
+  
+@media(min-width:1200px){
+    .gapSec{
+        margin-left: 100px !important;
+        
+    }
+}
+  
+
+  

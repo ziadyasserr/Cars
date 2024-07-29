@@ -1,0 +1,76 @@
+.textCars span {
+  display: inline-block;
+  color: #0b5ed7;
+  background-color: #1572d31a;
+  padding: 5px 20px;
+  border: 1px solid #1572d31a;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-img-left {
+  width: 150px;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* object-fit: cover; */
+}
+
+.star-rating .fas {
+  color: #ffc107;
+}
+
+.h1 {
+  font-size: 2.5rem;
+}
+
+
+.car--animation {
+  max-width: 90%;
+  animation: moveDiagonal 2s;
+  position: relative; /* Ensure the element can be positioned */
+}
+
+@media (max-width: 768px) {
+  .car--animation {
+    animation: moveDiagonal2 2s;
+  }
+}
+
+@keyframes moveDiagonal {
+  0% {
+    transform: translate(40%, -40%) scale(0.2); /* Start even closer to top right */
+  }
+  100% {
+    transform: translate(0, 0) scale(1); /* End at bottom left */
+  }
+}
+
+@keyframes moveDiagonal2 {
+  0% {
+    transform: translate(40%, -40%) scale(0.2); /* Start even closer to top right */
+  }
+  100% {
+    transform: translate(0, 0) scale(1); /* End at bottom left */
+  }
+}
+
+.maxMargin{
+  margin-left: 100px;
+}
+
+@media (max-width:667px) {
+  .maxMargin{
+    margin-left: 0px;
+  }
+  
+}
+
+.sizePic{
+    position:absolute;
+    top: 27px;
+    left: 20px;
+    width: 100%;
+}

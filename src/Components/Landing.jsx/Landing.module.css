@@ -1,0 +1,49 @@
+.positionImg{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    overflow: hidden !important ;
+    z-index: -1 !important;
+}
+.primaryColor{
+    color: #0d6efd;
+}
+
+@media (min-width: 1200px) {
+    .text{
+        max-width: 300px;
+        margin-left: 150px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 676px) {
+    .pos-landing {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+  }
+  .pos-landing {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+  } */

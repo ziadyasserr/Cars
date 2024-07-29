@@ -1,0 +1,25 @@
+.textCars span {
+  display: inline-block;
+  color: #0b5ed7;
+  background-color: #1572d31a;
+  padding: 5px 20px;
+  border: 1px solid #1572d31a;
+}
+.card {
+  border: 1px solid rgb(211, 208, 208);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  /* margin: 18px; */
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.btnshowAll {
+  background-color: #fff;
+  padding: 5px 50px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+.b :hover {
+  background-color: #ececec;
+  font-weight: 500;
+}
