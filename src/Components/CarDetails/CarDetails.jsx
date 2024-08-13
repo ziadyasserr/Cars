@@ -23,7 +23,7 @@ export default function CarDetails() {
   };
   useEffect(() => {
     getPopularCars();
-  }, [id]);
+  }, []);
 
   let navigate = useNavigate();
   let goToHomePage = () => {

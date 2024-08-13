@@ -14,7 +14,7 @@ export default function Car({ car }) {
       <div className={styles.card}>
         <div className="text-center mb-5">
           {car.image ? (
-            <img src={car3} className=' w-75' alt="Default Car" />
+            <img src={car3} className=" w-75" alt="Default Car" />
           ) : (
             <img src={car.image} alt={`${car.make} ${car.model}`} />
           )}
